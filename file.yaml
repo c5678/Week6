@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: testfile
+file_name: example
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 0
+columns: 
+    - product_id
+    - category_id
+    - price
+    - user_id
+    - user_session
+    - event_type
+    - event_time
